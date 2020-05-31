@@ -91,7 +91,8 @@ public class AirQualityData extends AppCompatActivity {
                             }
 
                             if (sensorArr.getString("dustDensity").equals("n/a")){
-                                dust.setText("0ppm");
+                                dust.setText("0ppm"); //means there is no dust or it is not
+                                // applicable
                             }else{
                                 dust.setText(new StringBuilder().append(sensorArr.getString(
                                         "dustDensity")).append("ppm"));

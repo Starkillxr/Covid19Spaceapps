@@ -28,7 +28,10 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
 
-
+// Idea behind the settings is to give the user as much customisability as possible. allowing
+// them to be able to have regular updates on each or for updates when each variable goes above
+// or below a certain limit, an idea might be that we can have it so they can have either above
+// or below, or both.
     public static class SettingsFragment extends PreferenceFragmentCompat {
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
