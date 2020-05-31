@@ -1,0 +1,102 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Notifications">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="humidity"
+            app:summaryOff="You are not receiving Air Quality Notifications"
+            app:summaryOn="You are receiving Air Quality Notifications"
+            app:title="Humidity notifications" />
+        <ListPreference
+            app:title="Humidity notification frequency"
+            app:summary="How often would you like to receive notifications?"
+            app:entryValues="@array/humidityUpdate_values"
+            android:entries="@array/humidityUpdate_options"
+            app:isPreferenceVisible="false"
+            app:key="humFreq"
+            app:defaultValue="1"/>
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:isPreferenceVisible="false"
+            app:key="humiditySpecific"
+            app:summaryOff="You are not receiving specific Air Quality Notifications"
+            app:summaryOn="You are receiving specific Air Quality Notifications"
+            app:title="Specific Notifications?" />
+        <ListPreference
+            app:defaultValue="0"
+            app:dialogTitle="Minimum Humidity"
+            app:entries="@array/humidity_options"
+            app:entryValues="@array/humidity_values"
+            app:isPreferenceVisible="false"
+            app:key="PREF_MIN_HUM"
+            app:summary="Select the Minimum Humidity for the Alert"
+            app:title="Min Humidity" />
+        <ListPreference
+            app:defaultValue="100"
+            app:dialogTitle="Maximum Humidity"
+            app:entries="@array/max_humidity_options"
+            app:entryValues="@array/max_humidity_values"
+            app:isPreferenceVisible="false"
+            app:key="PREF_MAX_HUM"
+            app:summary="Select the Maximum Humidity for the Alert"
+            app:title="Max Humidity" />
+
+        <SwitchPreferenceCompat
+            app:key="temp"
+            app:summaryOff="You are not receiving Temperature Notifications"
+            app:summaryOn="You are receiving Temperature Notifications"
+            app:title="Temperature Notifications" />
+        <ListPreference
+            app:title="Humidity notification frequency"
+            app:summary="How often would you like to receive notifications?"
+            app:entryValues="@array/tempUpdate_values"
+            android:entries="@array/tempUpdate_options"
+            app:isPreferenceVisible="false"
+            app:key="tempFreq"
+            app:defaultValue="1"/>
+        <SwitchPreferenceCompat
+            app:isPreferenceVisible="false"
+            app:key="tempSpecific"
+            app:summaryOff="You are not receiving Specific Temperature notifications"
+            app:summaryOn="You are receiving specific Temperature notifications"
+            app:title="Specific Notifications?" />
+        <ListPreference
+            app:defaultValue="-15"
+            app:dialogTitle="Minimum Temperature"
+            app:entries="@array/temperature_options"
+            app:entryValues="@array/temperature_values"
+            app:isPreferenceVisible="false"
+            app:key="PREF_MIN_TEMP"
+            app:summary="Select the Minimum Temperature for Alerts"
+            app:title="@string/min_temp" />
+        <ListPreference
+            app:defaultValue="30"
+            app:dialogTitle="Maximum Temperature"
+            app:entries="@array/max_temperature_options"
+            app:entryValues="@array/temperature_values"
+            app:isPreferenceVisible="false"
+            app:key="PREF_MAX_TEMP"
+            app:summary="Select the Maximum Temperature For Alerts"
+            app:title="@string/max_temp" />
+
+        <SwitchPreferenceCompat
+            app:summaryOff="You are not receiving Air Pressure Notifications"
+            app:summaryOn="You are receiving Air Pressure Notifications"
+            app:title="Air Pressure Notifications"
+            app:key="airPressure"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="General">
+
+        <SwitchPreferenceCompat
+            app:summaryOff="You are currently in light mode, switch to turn to dark mode"
+            app:summaryOn="You are currently in dark mode, Switch to turn to light mode"
+            app:title="Dark Mode" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

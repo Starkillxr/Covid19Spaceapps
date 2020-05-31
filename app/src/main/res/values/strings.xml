@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PurifyTheAirSupply</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_sensor">add sensor</string>
+    <string name="error_view">Error View</string>
+    <string name="temp_text">temp</string>
+    <string name="altitude">:Altitude</string>
+    <string name="humidity">:Humidity</string>
+    <string name="air_pressure">Air Pressure:</string>
+    <string name="notifications">Notifications</string>
+    <string name="air_quality">Air Quality</string>
+    <string name="account">Account</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_air_quality_fragment">Settings</string>
+    <string name="carbon_dioxide">Carbon Dioxide:</string>
+    <string name="min_temp">Min Temp</string>
+    <string name="max_temp">Max Temp</string>
+    <string name="temperature">Temperature:</string>
+    <string name="sensor_name">(sensor name)</string>
+    <string name="sensor">Sensor :</string>
+    <string name="loading_please_wait">Loading Please Wait</string>
+    <string name="dust_density">:Dust Density</string>
+</resources>

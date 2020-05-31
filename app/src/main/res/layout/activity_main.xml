@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/header"
+        style="@style/header_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placeholder name"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/air_quality_button"
+        android:layout_margin="20sp"
+        android:contentDescription="@string/air_quality"
+        android:drawableTop="@drawable/air_image"
+        android:text="@string/air_quality"
+        style="@style/main_button_text"
+        android:background="@drawable/rounded_corners"
+        android:cropToPadding="true"
+        android:padding="5sp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".2"
+        app:layout_constraintWidth_percent=".4"
+        />
+    <Button
+        android:id="@+id/account_button"
+        android:layout_margin="20sp"
+        android:contentDescription="@string/account"
+        android:drawableTop="@drawable/account_img"
+        android:text="@string/account"
+        style="@style/main_button_text"
+        android:background="@drawable/rounded_corners"
+        android:cropToPadding="true"
+        android:padding="5sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/air_quality_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".2"
+        app:layout_constraintWidth_percent=".4"/>
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_margin="20sp"
+        android:contentDescription="@string/settings"
+        android:drawableTop="@drawable/settings_img"
+        android:text="@string/settings"
+        style="@style/main_button_text"
+        android:background="@drawable/rounded_corners"
+        android:cropToPadding="true"
+        android:padding="5sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".2"
+        app:layout_constraintWidth_percent=".4"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

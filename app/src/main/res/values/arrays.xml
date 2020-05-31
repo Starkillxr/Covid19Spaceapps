@@ -1,0 +1,184 @@
+<resources>
+    <string-array name="humidity_options">
+        <item>0%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+        <item>50%</item>
+        <item>55%</item>
+        <item>60%</item>
+        <item>65%</item>
+        <item>70%</item>
+        <item>75%</item>
+        <item>80%</item>
+        <item>85%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="humidity_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="max_humidity_options">
+        <item>0%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+        <item>50%</item>
+        <item>55%</item>
+        <item>60%</item>
+        <item>65%</item>
+        <item>70%</item>
+        <item>75%</item>
+        <item>80%</item>
+        <item>85%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="max_humidity_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="temperature_options">
+        <item>-15°C</item>
+        <item>-10°C</item>
+        <item>-5°C</item>
+        <item>0°C</item>
+        <item>5°C</item>
+        <item>10°C</item>
+        <item>15°C</item>
+        <item>20°C</item>
+        <item>25°C</item>
+        <item>30°C</item>
+    </string-array>
+    <string-array name="temperature_values">
+        <item>-15</item>
+        <item>-10</item>
+        <item>-5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="max_temperature_options">
+        <item>-15°C</item>
+        <item>-10°C</item>
+        <item>-5°C</item>
+        <item>0°C</item>
+        <item>5°C</item>
+        <item>10°C</item>
+        <item>15°C</item>
+        <item>20°C</item>
+        <item>25°C</item>
+        <item>30°C</item>
+    </string-array>
+    <string-array name="max_temperature_values">
+        <item>-15</item>
+        <item>-10</item>
+        <item>-5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="humidityUpdate_options">
+        <item>Once Every 1hr</item>
+        <item>Once Every 2hrs</item>
+        <item>Once Every 3hrs</item>
+        <item>Once Every 4hrs</item>
+        <item>Once Every 5hrs</item>
+        <item>Once Every 6hrs</item>
+        <item>Once Every 12 Hours</item>
+        <item>Once Every 24 Hours</item>
+    </string-array>
+    <string-array name="humidityUpdate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="tempUpdate_options">
+        <item>Once Every 1hr</item>
+        <item>Once Every 2hrs</item>
+        <item>Once Every 3hrs</item>
+        <item>Once Every 4hrs</item>
+        <item>Once Every 5hrs</item>
+        <item>Once Every 6hrs</item>
+        <item>Once Every 12 Hours</item>
+        <item>Once Every 24 Hours</item>
+    </string-array>
+    <string-array name="tempUpdate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+</resources>
